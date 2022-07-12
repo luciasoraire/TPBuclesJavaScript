@@ -1,4 +1,4 @@
-let edad = prompt("Ingrese su edad");
+let edad = parseInt(prompt("Ingrese su edad"));
 while(edad>=0){
     if (edad>=18){
         document.write("Ya puede conducir");

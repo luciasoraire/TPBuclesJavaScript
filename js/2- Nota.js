@@ -1,4 +1,4 @@
-let nota = prompt("Ingrese una nota");
+let nota = parseInt(prompt("Ingrese una nota"));
 while((nota>=0)&&(nota<=10)){
     if((nota>=0)&&(nota<=2)){
         alert("Muy deficiente");
